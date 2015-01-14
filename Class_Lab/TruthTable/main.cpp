@@ -87,5 +87,25 @@ int main(int argc, char** argv) {
     cout<<(!(X&&Y)?'T':'F')<<"      ";
     cout<<(!X||!Y?'T':'F')<<"   ";
     cout<<endl;
+    
+    //Swap example
+    int a=2, b=3;
+    //Output the values
+    cout<<"Before the swap"<<endl;
+    cout<<"a="<<a<<endl;
+    cout<<"b="<<b<<endl;
+    int temp=a;
+    a=b;
+    b=temp;
+    //Output the values afer swap
+    cout<<"After temp swap"<<endl;
+    cout<<"a"<<a<<endl;
+    cout<<"b"<<b<<endl;
+    //swap
+    a=a^b;
+    b=a^b;
+    a=a^b;
+    //Output 
+ 
     return 0;
 }
