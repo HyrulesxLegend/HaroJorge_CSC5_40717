@@ -38,7 +38,8 @@ int main (){
 cout << "\nEnter Y to repeat " << endl;
 cin >> ans;
 
-}while (ans == 'y' || ans == 'Y');
+}
+while (ans == 'y' || ans == 'Y');
 
     return 0;
 }
