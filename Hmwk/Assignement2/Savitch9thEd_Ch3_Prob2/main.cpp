@@ -6,21 +6,56 @@
  */
 
 #include <iostream>
-#include <cstdlib>
+#include <cmath>
+#include <iomanip>
 using namespace std;
 
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declare variables
-    const float INTRST=1.5f + ;
     float intDue;//Interest due
-    float accntbal;
-    float tamntDue= accntbal * 1.5f;//Total amount due
-    int minpaymnt; //minimum payment
-    
-    cout<<"Hello Please enter the Interest due"<<endl;
-    cin>>intDue;
-   
+    float total_due;//Total amount due
+    float minPay1; //minimum payment
+    float minPay2;//
+    float minDue; //minimum due
+    float input;
+    float int1;//Interest 1
+    float int2;//Interest 2
+    float totalInt; //Total interest
+    char ans;
+    do{
+        cout<<"Please enter account balance $:"<<endl;
+        cin>>input;
+        if  (input < 1000)
+        {
+            totalInt = .015 * input;
+        }
+        else {
+            int1= .015*1000;
+            int2= .01*(input-1000);
+            total_due= totalInt + input;
+        }
+        if (total_due <=10)
+        {
+            minDue=total_due;
+        }
+        else {
+            minPay1=total_due * .1;
+            minPay2=10;
+        }
+        if (minPay2 > minPay1)
+        {
+            minDue= minPay2;
+        }
+        else {
+            minDue= minPay1;
+        }
+    cout<<"Interest due $"<<intDue<<"."<<endl;
+    cout<<"Total due $"<<total_due<<"."<<endl;
+    cout<<"Minimum payment due $"<<minDue<<"."<<endl;
+    cout<<"Input 'Y' or 'N' to redo"<<endl;
+    cin>>ans;
+    }while (ans == 'Y' || ans == 'y');
     
     return 0;
 }
