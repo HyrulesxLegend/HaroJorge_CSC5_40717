@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Jorge Haro
  * Created on January 15, 2015, 1:04 AM
- * Purpose: Astrology Program modded to display compatible signs.
+ * Purpose: Astrology Program, modded to display compatible signs.
  * Note to Dr. Lehr: For some reason it is not letting me repeat program,
  * I have no clue as to why..
  */
