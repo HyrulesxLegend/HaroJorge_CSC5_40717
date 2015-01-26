@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Savitch9thEd_Ch4_Prac_Prob7_v2
+PROJECTNAME=Timer
 
 # Active Configuration
 DEFAULTCONF=Debug
