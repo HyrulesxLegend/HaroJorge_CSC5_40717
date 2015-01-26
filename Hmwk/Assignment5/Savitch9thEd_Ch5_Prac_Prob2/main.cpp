@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Jorge Haro
  * Created on January 23, 2015, 7:13 PM
- * Purpose: converts from feet/inches to meters/centimeters & vise versa.
+ * Purpose: converts from feet/inches to meters/centimeters 
  */
 //System Libraries
 #include <iostream>

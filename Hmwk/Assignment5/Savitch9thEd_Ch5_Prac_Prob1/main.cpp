@@ -9,7 +9,6 @@
 #include <cmath>
 using namespace std;
 
-//Function to calculate average and deviation.
 
 void average(float a,float b,float c,float d){
     cout<<"First score:"<<endl;
